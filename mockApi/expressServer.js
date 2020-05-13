@@ -2,7 +2,7 @@ require("dotenv").config();
 const bodyParser = require("body-parser");
 
 const express = require("express")();
-const port = process.env.PORT;
+const port = process.env.EXPRESS_PORT;
 
 express.get("/", (res, req) => {
   res.send("Hello");
