@@ -1,12 +1,16 @@
-// color var
+// var
 $li-active: 0.8;
+// color
+$color-purple: rgba(213, 11, 24, 1);
 
 .suggestions {
   margin: 0;
-  padding: 0;
+  width: 1%;
+  padding: 1px 1px 0 3px;
   list-style: none;
+  color: $color-purple;
   &__item {
-    background-color: gray;
+    border-bottom: gray 1px solid;
     &-active {
       background-color: gray;
       opacity: $li-active;

@@ -1,4 +1,5 @@
 import React from "react";
+import "./../../ViewAutocomplete/style";
 
 export const InputForm = ({
   handleChange,
@@ -17,6 +18,5 @@ export const InputForm = ({
       autoComplete="off"
       ref={inputRef}
     />
-    <button>Search</button>
   </form>
 );

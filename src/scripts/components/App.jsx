@@ -31,21 +31,14 @@ const App = () => {
   return (
     <BrowserRouter>
       <Switch>
-        {/* for working */}
-        <NavbarRoute exact path="/" component={ViewButtons} />
-        {/*  */}
-
         {/* <LoginView exact path="/" /> */}
-        {/* <NavbarRoute
-          exact
-          path="/"
-          component={ViewLandingPage}
-        /> */}
+        {/* <NavbarRoute exact path="/" component={ViewLandingPage} /> */}
         <NavbarRoute
           exact
           path="/view-autocomplete"
           component={ViewAutocomplete}
         />
+        <NavbarRoute exact path="/" component={ViewAutocomplete} />
         <NavbarRoute
           exact
           path="/view-mediaqueries"

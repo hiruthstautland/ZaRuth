@@ -64,7 +64,7 @@ export const ViewAutocomplete = () => {
         handleChange={handleChange}
         handleKeyDown={handleKeyDown}
         inputRef={inputRef}
-        className="autocomplete__input"
+        customClass="autocomplete__input"
       />
       {suggestions && (
         <SuggestionList

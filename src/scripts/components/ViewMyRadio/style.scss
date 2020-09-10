@@ -1,12 +1,11 @@
-// * {
-//   margin: 0;
-//   padding: 0;
-//   box-sizing: border-box;
-// }
 $color-primary: #a4b7be;
 $color-dark: #333;
 $bg-white: #ebebeb;
-// ----------- sass
+main {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 :root {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -15,11 +14,6 @@ $bg-white: #ebebeb;
   --black: #333333;
   --prog: #a4b7be;
 }
-
-// body {
-//   background: var(--bg);
-//   color: var(--black);
-// }
 
 a {
   text-decoration: none;
