@@ -1,0 +1,25 @@
+$color-auto-gray: rgb(235, 234, 235);
+$color-auto-primary: rgb(247, 244, 241);
+$color-auto-light: rgb(245, 244, 244);
+
+.autocomplete {
+  height: 100%;
+  width: 100%;
+  background: $color-auto-gray;
+
+  &__input {
+    height: 1.4em;
+    padding: 1px 4px;
+    background: $color-auto-primary;
+    border: 3px solid $color-auto-light;
+    border-radius: 2px;
+    -webkit-box-shadow: 2px 3px 10px 2px
+      scale-color($color-auto-gray, $lightness: -10%);
+    -moz-box-shadow: 2px 3px 10px 2px
+      scale-color($color-auto-gray, $lightness: -10%);
+    box-shadow: 2px 3px 10px 2px scale-color($color-auto-gray, $lightness: -10%);
+    &:focus {
+      outline: none;
+    }
+  }
+}
