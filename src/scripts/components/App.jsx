@@ -9,9 +9,7 @@ import { ViewButtons } from "./ViewButtons";
 import { ViewMyRoad } from "./ViewMyRoad";
 import { ViewYourRoad } from "./ViewYourRoad";
 import { ViewMyRadio } from "./ViewMyRadio";
-
-// import { LoginView } from "./common/LoginView";
-// import { ViewLandingPage } from "./ViewLandingpage";
+import { ViewLandingPage } from "./ViewLandingPage";
 
 // route with navbar
 const NavbarRoute = ({ exact, path, component: Component }) => (
@@ -31,14 +29,12 @@ const App = () => {
   return (
     <BrowserRouter>
       <Switch>
-        {/* <LoginView exact path="/" /> */}
-        {/* <NavbarRoute exact path="/" component={ViewLandingPage} /> */}
+        <ViewLandingPage exact path="/" />
         <NavbarRoute
           exact
           path="/view-autocomplete"
           component={ViewAutocomplete}
         />
-        <NavbarRoute exact path="/" component={ViewAutocomplete} />
         <NavbarRoute
           exact
           path="/view-mediaqueries"

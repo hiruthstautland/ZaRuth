@@ -5,7 +5,7 @@ export const ViewButtons = () => (
   <section className="container__buttons">
     <h1>Button Hover Effects</h1>
     <div className="container__buttons-hover">
-      <a href="https://twitter.com/Dave_Conner" className="buttons btn-1">
+      <a href="#" className="buttons btn-1">
         <svg>
           <rect x="0" y="0" fill="none" width="100%" height="100%" />
         </svg>
